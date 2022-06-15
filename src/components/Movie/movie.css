@@ -1,0 +1,8 @@
+.movie {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: rgba(176, 234, 176, 0.7);
+}
