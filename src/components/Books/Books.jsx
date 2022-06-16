@@ -16,7 +16,6 @@ function Books() {
 
   const [booksList, setBooksList] = useState(books)
 
-
   useEffect( () => {
     fetch('https://the-one-api.dev/v2/book/')
       .then(response => response.json())
