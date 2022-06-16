@@ -4,7 +4,7 @@ import MenuComponent from '../menu.component';
 function Heroes() {
   return (
     <div className='wrapper'>
-      <MenuComponent/>
+      <MenuComponent />
       <div className="heroes">heroes</div>
     </div>
   )

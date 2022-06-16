@@ -4,7 +4,7 @@ import MenuComponent from '../menu.component';
 function Movie() {
   return (
     <div className='wrapper'>
-      <MenuComponent/>
+      <MenuComponent />
       <div className="movie">movie</div>
     </div>
     

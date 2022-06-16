@@ -24,14 +24,18 @@ a {
 
 .wrapper {
   display: flex;
-  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.wrapper-menu {
+  justify-content: space-between;
 }
 
 .menu {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   top: 65vh;
   margin: 0 auto;
   text-align: center;
@@ -44,8 +48,7 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 200px;
-  margin: auto 0;
-  height: 100vh;
+  margin: 0;
   background: rgba(76, 76, 74, 0.7);
 }
 
