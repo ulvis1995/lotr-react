@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MenuItem({text, icon, id}) {
+function MenuItem({text, icon}) {
 
   return (
     <div className='menu-item'>

@@ -5,9 +5,8 @@ import imgHero from "../img/menu/lord.png";
 import imgExit from "../img/menu/free-icon-exit-320140.png";
 import { Link, useLocation } from "react-router-dom";
 
-function MenuComponent({handleOnclickItem}) {
+function MenuComponent() {
   const menu = [
-    // {name: 'exit-menu', text: 'Главное меню', id: 0, img: imgBook},
     { name: 'books', text: 'Книги', id: 1, img: imgBook }, 
     { name: 'movie', text: 'Фильмы', id: 2, img: imgFilm }, 
     { name: 'heroes', text: 'Герои', id: 3, img: imgHero }
@@ -17,10 +16,8 @@ function MenuComponent({handleOnclickItem}) {
   return (
     <div className={`${location.pathname === '/' ? 'menu' : 'menu menu-click'}`} id='menu'>
       {menu.map (obj => (
-        <Link to={`/${obj.name}`} >
-        <MenuItem text={obj.text} icon={obj.img} id={obj.id}
-        key={obj.id + obj.name}
-        idMenuItem={handleOnclickItem}/>
+        <Link to={`/${obj.name}`} key={obj.id + obj.name}>
+        <MenuItem text={obj.text} icon={obj.img} id={obj.id}/>
         </Link>
       ))}
 
