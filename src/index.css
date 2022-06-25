@@ -78,7 +78,8 @@ a {
 }
 
 .menu-item-text {
-  font-size: 75%;
+  font-size: 30px;
+  line-height: 34px;
   color: rgb(238, 238, 121);
   -webkit-text-stroke: .03em black;
 }

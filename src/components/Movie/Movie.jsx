@@ -15,4 +15,4 @@ function Movie({name, nominations, runtime, budget, boxOffice, wins }) {
   )
 }
 
-export default Movie
+export default Movie;
